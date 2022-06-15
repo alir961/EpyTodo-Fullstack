@@ -1,0 +1,34 @@
+nav h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    margin-top: 75px;
+}
+
+.return {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 30px;
+}
+
+form input {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+}
+
+form button {
+    margin-top: 50px;
+}

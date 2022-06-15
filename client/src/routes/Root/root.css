@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #141414;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+
+body .page {
+	margin: 20px 80px;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	background-color: #141414;
+	padding: 10px 0px;
+	z-index: 5;
+}
+
+nav .onglet {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+nav .onglet a {
+	margin-right: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav .buttons button {
+	padding: 13px 20px;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	outline: none;
+}
+
+nav .buttons .login {
+	margin-right: 10px;
+	background-color: inherit;
+	color: #8f8f8f;
+}
+
+nav .buttons .register {
+	margin-right: 10px;
+	background-color: #5099de;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.buttons a {
+	text-decoration: none;
+}
+
+header {
+	height: 500px;
+}
+
+.logo {
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.todos {
+	height: 200px;
+}
+
+.todos h1 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.todos p {
+	text-align: center;
+	color: #8f8f8f;
+}
+
+
+.slogan {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 0 0 6px black;
+	position: relative;
+	top: -355px;
+}
+
+footer {
+	background-color: #1a1a1a;
+	padding: 25px 100px;
+	color: #828282;
+}
+
+footer .colonnes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+footer .colonnes p {
+	cursor: pointer;
+}
+
+@media screen and (max-width:  640px) {
+	body .page {
+		margin: 10px;
+	}
+	nav .onglet {
+		display: none;
+	}
+	header {
+		margin-top: 20px;
+		background-size: 250px 250px;
+	}
+	header h1 {
+		font-size: 30px;
+		padding: 100px;
+	}
+	nav .buttons {
+		display: flex;
+		justify-content: space-between;
+	}
+}
